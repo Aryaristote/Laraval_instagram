@@ -1,0 +1,85 @@
+// Fonts
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700');
+
+// Variables
+@import 'variables';
+
+// Bootstrap
+@import 'bootstrap/scss/bootstrap';
+
+.navbar-laravel {
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.04);
+}
+
+.profile {
+    .profile-img{
+        overflow: hidden;
+
+        img{
+            width: 150px;
+            height: 150px;
+        }
+    }
+    .profile-h{
+        .prof-main{
+            display:flex;
+            flex-direction: row;
+            justify-content: space-between;
+            align-items: center;
+
+            div{
+                .follow-btn{
+                    margin-right: 15px;
+                    border: 3px solid #007bff;
+                    color: #007bff;
+                    background-color: transparent;
+                    padding: 7px 11px;
+                    font-weight: bold;
+                    border-radius: 6px;
+                    text-decoration: none;
+                }
+            }
+        }
+
+        .d-flex{
+            .h4{
+                font-size: 30px;
+                font-weight: bold;
+            }
+        }
+        .profile-stat{
+            div{
+                padding-right: 35px;
+            }
+        }
+        .profile-title{
+            font-weight: bold;
+        }
+        .profile-desc{
+            font-weight: 400;
+        }
+        .profile-link{
+            a{
+                text-decoration: none;
+                color: rgb(47, 67, 194);
+                font-weight: 400;
+            }
+        }
+    }
+
+    .post-main{
+        .img-container{
+            height: 300px;
+            margin-bottom: 25px;
+
+            a{
+                img{
+                    width: 200px;
+                    height: 300px;
+                    object-fit: cover;
+                }
+            }
+        }
+    }
+}
